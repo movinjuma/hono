@@ -1,0 +1,25 @@
+{
+  "name": "hono",
+  "version": "1.0.0",
+  "description": "Housika backend powered by Hono, container-ready with prewarming and diagnostics",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.922.0",
+    "@hono/node-server": "^1.19.6",
+    "@upstash/redis": "^1.35.6",
+    "bcryptjs": "^3.0.3",
+    "cookie": "^1.0.2",
+    "dotenv": "^17.2.3",
+    "hono": "^4.10.4",
+    "jsonwebtoken": "^9.0.2",
+    "puppeteer": "^24.29.0",
+    "qrcode": "^1.5.4",
+    "uuid": "^13.0.0",
+    "uuidv4": "^6.2.13"
+  }
+}
